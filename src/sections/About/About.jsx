@@ -4,7 +4,7 @@ import styles from "./AboutStyles.module.css";
 function About() {
   return (
     <section id="skills" className={styles.container}>
-      <h1 className={styles.heading}>About</h1>
+      <h1 className={styles.heading}>About Me</h1>
 
       <div className={styles.abouttxt}>
         <p>
