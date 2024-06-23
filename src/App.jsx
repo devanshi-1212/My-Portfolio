@@ -1,5 +1,7 @@
 import "./App.css";
+import About from "./sections/About/About";
 import Contact from "./sections/Contact/Contact";
+import Education from "./sections/Education/Education";
 import Footer from "./sections/Footer/Footer";
 import Hero from "./sections/Hero/Hero";
 import Projects from "./sections/Projects/Projects";
@@ -9,6 +11,8 @@ function App() {
   return (
     <>
       <Hero />
+      <About />
+      <Education />
       <Skills />
       <Projects />
       <Contact />
